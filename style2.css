@@ -1,0 +1,128 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Navigation Bar with Jump Links */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jump-links {
+  background-color: #444;
+  width: 100%;
+}
+
+.jump-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.jump-links li {
+  margin: 0 10px;
+}
+
+.jump-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.jump-links a:hover {
+  background-color: #555;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, button {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  background-color: darkgrey;
+}
+
+main {
+  padding: 20px;
+}
+
+.artisan-profile {
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info h2 {
+  margin: 0;
+}
+
+.product-list {
+  margin-bottom: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 100px;
+}
+
+.bio {
+  margin-bottom: 20px;
+}
+
+.bio h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a button {
+  background-color: darkgrey;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+footer a button:hover {
+  background-color: grey;
+}
